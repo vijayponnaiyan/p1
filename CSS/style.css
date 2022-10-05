@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+ background-image: url(../image/rocket.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-color: rgb(78, 74, 74);
+ margin-top: 1px;
+opacity: 10;
+}
+.header h1 {
+   color: orange;
+   margin-left: 100px;
+   position: relative;
+   top: 15px;
+}
+nav ul{
+    margin-top: -38px;
+    background-color: black;  
+    padding: 20px;
+}
+ li{
+    list-style-type: none;
+     padding: 5px 22px;
+     display: inline-block;
+     position: relative;
+     left:28%;
+}
+nav a{
+     text-decoration: none;
+     color: whitesmoke;
+     font-family: 'Courier New', Courier, monospace;
+}
+nav input{
+   margin-left: 28%;
+   width: 20%;
+   height: 35px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-color: orange;
+   background: none;
+   font-family: 'Courier New', Courier, monospace;
+}
+nav .button{
+    padding: 10px;
+    width: 6%;
+    position: relative;
+    right: 4px;
+    background-color: orange;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; 
+     border: none;
+     color: whitesmoke;
+     font-family: 'Courier New', Courier, monospace;
+}
+.home{
+  background-color: orange;
+  color: black;
+  padding: 12px;
+  border-radius: 5px;
+}
+.area h2{
+     font-size: 60px;
+     color: whitesmoke;
+     padding: 10px;
+}
+.area {
+    margin-top: 160px;
+    margin-left: 103px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.area p{
+  color:whitesmoke;
+  font-size: 20px;
+  width: 50%;
+  padding: 10px;
+}
+.area .menu{
+    font-family: 'Courier New', Courier, monospace;
+     padding: 10px 25px; 
+     background-color: orange;
+     color: whitesmoke;
+     border: none;
+     margin-left: 10px;
+     border-radius: 10px;
+}
+.from h1{
+    color: orange;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    width: 237px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.from {
+    width: 26%;
+    height: 400px;
+    background-color:  rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    position: absolute;
+    left: 911px;
+    top: 178px;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.from .input1{ 
+    width: 75%;
+    padding: 10px;
+    margin-left: 33px;
+    margin-top: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    border-color:whitesmoke;
+    color: whitesmoke;
+}
+.from .input2{
+    width: 75%;
+    padding: 10px;
+    margin-left: 33px;
+    margin-top: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    border-color:whitesmoke;
+    color: whitesmoke;
+}
+.from .login{
+    color: black;
+    background-color: orange;
+    width: 237px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 34px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    font-size: 20px; 
+}
+.from p{
+    font-size: 15px;
+    width: 100%;
+    margin-left: 43px;
+    margin-top: 4px;
+
+}
+.from .sign{
+   color: orange;
+   margin-left: 55px;
+}
+.from .here{
+    margin-left:5px;
+
+}
+.with{
+    font-size: 12px;
+    margin-left:65px;
+    position: relative;
+    top: 5px;
+}
+.icon{
+    width: 100px;
+    font-size: 25px;
+    margin-left: -45px;
+    display: inline-flex;
+    padding: 5px -5px;
+}
+.icon a{
+    color: whitesmoke;
+
+}
